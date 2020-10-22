@@ -5,7 +5,7 @@ CUDA application that uses multiple GPUs to compute matrix-matrix multiplication
 To run the program properly alter the CUDA_PATH variable accordingly on the Makefile.
 
 Compile:
-make EXTRA_NVCCFLAGS=--cudart=shared
+make
 
 Run:
 ./matrixMulMultiGPU
